@@ -12,6 +12,18 @@ According to Wikipedia, "The Histogram of oriented gradients (HOG) is a feature 
 - Tanh
 - Softmax
 - Sigmoid<br/>
+### Libraries used and their documentations:
+- [Numpy](https://numpy.org/doc/stable/reference/index.html#reference)
+- [Pandas](https://pandas.pydata.org/docs/reference/api/pandas.DataFrame.html)
+- [LabelEncoder - Sklearn](https://scikit-learn.org/stable/modules/generated/sklearn.preprocessing.LabelEncoder.html)
+- [Imread, Imshow - Scikit-image](https://scikit-image.org/docs/stable/api/skimage.io.html)
+- [Resize - Scikit-image](https://scikit-image.org/docs/dev/api/skimage.transform.html#skimage.transform.resize)
+- [Train test split](https://scikit-learn.org/stable/modules/generated/sklearn.model_selection.train_test_split.html)
+- [Hog](https://scikit-image.org/docs/stable/api/skimage.feature.html#skimage.feature.hog)
+- [Sequential - Keras.models](https://keras.io/guides/sequential_model/)
+- [Dense - Keras.layers](https://keras.io/api/layers/core_layers/dense/)
+- [LeakyReLU - Keras.layers.advanced_activations](https://keras.io/api/layers/activation_layers/leaky_relu/)<br/><br/>
+
 
 The Deep learning model consists of 5 layers with 128 perceptrons in the first three layers, 64 perceptrons in the fourth layer and 128 in the fifth layer. The output layer uses only 2 perceptrons as the cell has to be classified as either `healthy` or `malaria`.<br/>
 The deep learning model can be represented similar to the diagram shown below:<br/><br/>
